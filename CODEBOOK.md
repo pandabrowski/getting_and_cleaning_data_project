@@ -11,12 +11,12 @@ DATA PROCESSING:
 ----------------
 Following operations are performed by the run_analysis.R script
 
-*files are loaded
-*rows describing subjects (people), activities and the measurements are combined.
-*only measurements based on the mean() and std() functions are selected for the further processing.
-*measurements are aggregated using mean function, grouped by activity and person.
-*names of the measurements are changed to the human readable format, described below.
-*final table is saved as a 'summary_mean.txt' file.
+ files are loaded
+ rows describing subjects (people), activities and the measurements are combined.
+ only measurements based on the mean() and std() functions are selected for the further processing.
+ measurements are aggregated using mean function, grouped by activity and person.
+ names of the measurements are changed to the human readable format, described below.
+ final table is saved as a 'summary_mean.txt' file.
 
 
 OUTPUT FILE:
@@ -40,15 +40,15 @@ output file consist of 50 columns.
   Metric - StandardDeviation, Mean
   Axis - X,Y,Z
 
- These columns contains aggregated values calculated by using mean grouped by activity and person fields.
-  Values are normalized and bounded in <-1;1> range.  
-  Meaning of the measurement name components are following:
-  domain - describes the domain of the measurement  
-  subject - describes if measurement was taken for the body or gravity.
-  device - describes type of the device used for taking the measure.
-  measurement - type of the measurement (linear acceleration, angular velocity) or calculated variable (jerk)
-  metric - describes function used on the readings.
-  axis - describes a dimensional component of the 3-axis measurement.
+These columns contains aggregated values calculated by using mean grouped by activity and person fields.
+Values are normalized and bounded in <-1;1> range.  
+Meaning of the measurement name components are following:
+ domain - describes the domain of the measurement  
+ subject - describes if measurement was taken for the body or gravity.
+ device - describes type of the device used for taking the measure.
+ measurement - type of the measurement (linear acceleration, angular velocity) or calculated variable (jerk)
+ metric - describes function used on the readings.
+ axis - describes a dimensional component of the 3-axis measurement.
 
 
 For the exact description of the experiment and the parameters of the variables go to the description of the 
