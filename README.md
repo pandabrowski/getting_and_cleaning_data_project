@@ -9,21 +9,21 @@ Description:
 The script provided generates file that contains summary - aggregation using mean function  of the  "mean" and "standard deviation" based metrics from the dataset "Human Activity Recognition Using Smartphones Dataset Version 1.0". (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 Project consist of the following files:
-*codebook.md
-*readme.md
-*run_analysis.R
+ codebook.md
+ readme.md
+ run_analysis.R
 
 
 Prerequisites:
 --------------
-*Script must be placed in the folder of the dataset.
-*Script requires 'plyr' R library.
+ Script must be placed in the folder of the dataset.
+ Script requires 'plyr' R library.
 
 Usage:
 -------
-*Place the script in the folder where the dataset is located.
-*Run the script.
-*Result set will be saved in that folder under the 'summary_mean.txt' name.
+ Place the script in the folder where the dataset is located.
+ Run the script.
+ Result set will be saved in that folder under the 'summary_mean.txt' name.
 
 Acknowledgements:
 -----------------
