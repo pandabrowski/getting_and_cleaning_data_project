@@ -1,3 +1,13 @@
+# This project is based on the Davide Anguita, Alessandro Ghio, Luca Oneto, 
+# Xavier Parra and Jorge L. Reyes-Ortiz publication 
+# "Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine".
+# International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+#script created by Rafał Dąbrowski
+#script loads the file from the dataset and generates summary, which is saved as a "summary_mean.txt" file.
+
+
+
 #load the files, assuming that script file is located in main 'UCI HAR Dataset' folder
 
 #load names for the columns
